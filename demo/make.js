@@ -6,7 +6,8 @@ make({
 	height: 200,
 	fontColor: '#e8ccd1',
 	fontSize: '120',
-	text: 'UH'
+	text: 'UH',
+	font:'Arial'
 }, function(err, buffer){
 	if(err) return console.log(err);
 			return fs.writeFileSync(__dirname + '/avatar.png', buffer);
